@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--  MY PORTFOLIO PROJECT  -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Webside</title>
+    <link rel="stylesheet" href="MyPortfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+    <div id="header">
+        <div id="container">
+            <nav>
+                <img src="data:image/jpeg;base64,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"
+                    class="logo" height="100px" width="150px">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portFolio">PortFolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="CloseMenu()"></i>
+                    <!-- <i class="fa-solid fa-business-time" onclick="CloseMenu()"></i> -->
+                </ul>
+                <i class="fa-solid fa-bars" onclick="OpenMenu()"></i>
+            </nav>
+            <!--  -------------------------------- here is a  header text ---------------------------------------------------------------------->
+            <div class="header-text">
+                <p>UI/UX DESIGNER</p>
+                <h1>HI i'm <span>Mohan Barle<br> FROM INDIA...</span></h1>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <!--------------------- About me ---------------------------------------------------------- -->
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="About-col-1">
+                    <img src="mohan.jpg" height="450px" width="500px">
+                </div>
+                <!-- -------------------------------------------------------------------------------------- -->
+
+                <div class="About-col-2">
+                    <br>
+                    <h1 clas="sub-title" style="color: red;">About Me</h1>
+                    <br>
+                    <p>i am computer science of student or doing a course to become a software engineer or a software developer, there are some technical skills you need to have to become a good programmer. Technology is vast and there are so many tools,
+                        platforms, languages coming out in the market. It doesn’t matter if you are an experienced programmer or a new bie programmer, as a modern developer you should have knowledge that how to integrate the modern technologies and other
+                        technical stuff in your work to make a good product or software.
+                        <u> <b style="color:rgb(239, 19, 7)">1.Data Structures and Algorithms: </b>
+                        </u>This skill is the topmost priority by most of the companies to check the problem solving and coding skill. You can become a good software developer if you know how data can be organized and how it can
+                        be used to solve a real life problem. As a developer or a computer science student or a self taught programmer, you should put serious effort to learn Data Structures and Algorithms
+                        <bold>(e.g. array, linked list, tree)</bold>. Data Structures and Algorithms are the heart of programming. Initially most of the developers do not realize its importance but when you will start your career in software development you
+                        will find your code is either taking too much time or taking too much space. There you will realize the importance of organizing the data using right data structure and algorithm to solve a specific problem in less time and less
+                        space...
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tag-links active-link" onclick="opentab('skills')">Skills:</p>
+                        <p class="tag-links" onclick="opentab('Experiance')">Experience:</p>
+                        <p class="tag-links" onclick="opentab('Eduction')">Eduction:</p>
+                    </div>
+                    <!-- -------------------------------- Skills-------------------------------------------------------------- -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li> <span>Android_App</span><br> Make Application Devloper</li>
+                            <li> <span>Java Devloper</span><br> Java_Backand_Devloper</li>
+                            <li> <span>HTML_CSS</span><br> Web Devloper</li>
+                        </ul>
+                    </div>
+                    <!-- --------------------------- *** Experiance ***  ----------------------------------------------------------------- -->
+                    <div class="tab-contents" id="Experiance">
+                        <ul>
+                            <li> <span>Android_App</span><br> Fresher</li>
+                            <li> <span>Java Devloper</span><br> Fresher</li>
+                            <li> <span>HTML_CSS(JavaScript)</span><br> Multiple Make project</li>
+                        </ul>
+                    </div>
+                    <!-- ------------------------------- *** Education *** ------------------------------------------------------------ -->
+                    <div class="tab-contents" id="Eduction">
+                        <ul>
+                            <li> <span>2018</span><br> 10th Complated(Percentage:75%)</li>
+                            <li> <span>2020</span><br> 12th Complated(percentage:89%)</li>
+                            <li> <span>2024</span><br> BSC Computer Science</li>
+                        </ul>
+                    </div>
+                    <!-- --------------------------------------------------------------------------------------------------------------- -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Servises:</h1>
+            <br>
+            <!-- -------------------------------------------------------------------------------------------------------------------          -->
+            <div class="servises-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Devloper</h2>
+                    <p>Features that help businesses bring ideas to life. Google Web application you the power to create beautiful and compelling videos, images, and Eduction website for the student.
+                    </p>
+                    <a href="#">Learn More:</a>
+                </div>
+                <!-- -------------------------------------------------------------------------------------------------- -->
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop"></i>
+                    <h2>Backend Devloper</h2>
+                    <p> Back-end Development refers to the server-side development. It focuses on databases, scripting, website architecture. It contains behind-the- ... </p>
+                    <a href="#">Learn More:</a>
+                </div>
+                <!-- ---------------------------------------------------------------------------------------------------- -->
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Applicatio Developer</h2>
+                    <p> the application developer is a specialized part of an integral team of software experts put together to design, create, deploy and store on the placestore App ...</p>
+                    <a href="#">Learn More:</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------- ** portfolio ** --------------------------------------------------------------------------------- -->
+
+    <div id="portFolio">
+        <div class="container">
+            <h1 class="sub-title">My Work:</h1>
+            <div class="work-list">
+                <!-- ------------------------------------------------------------------------------------------------------------------>
+                <div class="work">
+                    <img src="https://i.pinimg.com/474x/da/e9/d6/dae9d65940b7795b8bb43673edd3a4fe.jpg">
+
+                    <div class="layer">
+                        <h3> Android Developer:</h3>
+                        <p>The app connect you to the talented people around the world. and checked the knowdalge and hire them made a project and provide a servises this work for the software Developer </p>
+                        <a href=""><i class="fa-solid fa-forward-fast"></i></a>
+                    </div>
+                </div>
+                <!-- ------------------------------------------------------------------------------------------------------------------->
+                <div class="work">
+                    <img src="https://i.pinimg.com/474x/d1/e1/20/d1e1202eca5492ad280f637319df0745.jpg">
+                    <div class="layer">
+                        <h3>App Developer:</h3>
+                        <p>The app connect you to the talented people around the world. Download it from play store. </p>
+                        <a href=""><i class="fa-brands fa-google-play"></i></a>
+                    </div>
+                </div>
+                <!-- ---------------------------------------------------------------------------------------------------------------------->
+                <div class="work">
+                    <img src="https://i.pinimg.com/474x/d0/7b/51/d07b51aa1fbd871620c804e602ac2a29.jpg">
+                    <div class="layer">
+                        <h3>Web Application :</h3>
+                        <p>The app connect you to the talented people around the world. provided to the servises like make webside and web application Ecommerece Webside etc... and access to the Google Chorme store our webside ont he browsers it from play
+                            store. Create to the Application and provide to servisses to people and connect to the technology in the Information Technology Sector </p>
+                        <a href=""><i class="fa-brands fa-apple"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- ------------------------------------------------------------------------------------------------------------------------>
+            <div>
+                <a href="#" class="btn">See More:</a>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------------  Contect from  ----------------------------------------------------------------------- -->
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-brands fa-chrome"></i>Mohanbarle311@Gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>7378722427</p>
+
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                        <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="C:\Users\admin\Downloads/Operating System Notes.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+
+                    <form>
+                        <input type="text" name="Name" placeholder="your Name" required>
+                        <input type="email" name="email" placeholder="your email" required>
+                        <textarea name="Message" rows="6" placeholder="your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>@Mohan Barle Made with <i class="fa-solid fa-heart-pulse"></i> By Easy Tutorials</p>
+        </div>
+    </div>
+    <!----------------------    JAVASCRIPT PROGRAM   ----------------------------------------------------------  -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablinks of tablinks) {
+                tablinks.classList.remove("active-link")
+            }
+
+            for (tabcontents of tabcontents) {
+                tabcontents.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function OpenMenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function CloseMenu() {
+            sidemenu.style.right = "200px";
+        }
+    </script>
+
+</body>
+
+</html>
+<!-- ----------------------------------THE END ---------------------------------------------------------------------------- -->
